@@ -151,7 +151,7 @@ html{
 }
 .pimg{
   height: 100%;;
-  width: 45%;
+  width: 60%;
   border-radius: 1rem 0 0 1rem ;
 }
 
@@ -188,9 +188,18 @@ html{
 
   
 }
+
+@media (max-width:578px){
+  .mid{
+    grid-template-columns: 1fr;
+  }
+}
 @media (max-width:548px){
   html{
       font-size:35%;
+  }
+  .mid{
+    grid-template-columns: 1fr;
   }
 }
 @media (max-width:434px){
