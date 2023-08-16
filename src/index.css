@@ -1,6 +1,12 @@
 *{
   margin: 0;
   padding: 0;
+  
+}
+body{
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
 }
 a{
   color: white;
@@ -35,7 +41,7 @@ html{
   flex-direction: row  ;
   justify-content: center ;
   align-items: center;
-  height: 20rem;
+  height: 30rem;
 }
 .top span{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -50,7 +56,7 @@ html{
   text-transform: uppercase;
   display: flex;
   align-items: center;
-  height: 3rem;
+  height: 5rem;
   width:100%;
   background-color: rgb(188, 73, 226);
   color: white;
@@ -58,7 +64,7 @@ html{
 }
 .nav{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   margin: 0 3rem;
 }
 .logo{
@@ -70,6 +76,7 @@ html{
 /* card */
 .mid{
   width:80%;
+  /* height: 80%; */
   margin: 2rem auto;
   display: grid;
   /* grid-template-rows: 1fr 1fr 1fr 1fr; */
@@ -79,7 +86,7 @@ html{
   row-gap: 2rem;
 }
 .card{
-  height: 14rem;
+  height: 25rem;
   color: black;
   border-radius: 0.7rem;
   border:.1rem solid violet;
@@ -95,6 +102,8 @@ html{
   /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   text-transform: uppercase;
   display: flex;
+  height: 100%;
+  margin-left: 1rem;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
@@ -104,8 +113,8 @@ html{
 
   text-transform: uppercase;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 1.7rem;
-  margin:0.2rem 
+  font-size: 2rem;
+  /* margin:0.2rem  */
 
 }
 /* .rt span p{
@@ -118,6 +127,9 @@ html{
   justify-content: center;
 }
 .footer{
+  bottom: 0rem;
+  /* position: ; */
+  width: 100%;;
   color: rgb(0, 0, 0);
   height: 2rem;
   background-color: #be95c4;
@@ -138,43 +150,45 @@ html{
   /* margin-right: -1rem; */
 }
 .pimg{
-  /* heigvscode-file://vscode-app/c:/Users/PC/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.htmlht: 15rem; */
-  width: 50%;
+  height: 100%;;
+  width: 45%;
   border-radius: 1rem 0 0 1rem ;
 }
 
 /* media queris */
 @media (max-width:1049px){
   html{
-      font-size:50%;
+      font-size:60%;
   } 
 }
-@media (max-width:838px){
-  
+@media (max-width:890px){
   html{
-      font-size:45%;
-  }
-  
-}
-@media (max-width:757px){
-  html{
-      font-size:50%;
+      font-size:55%;
   } 
-  
 }
-@media (max-width:727) {
+@media (max-width:790px){
   html{
-    font-size:45%;
-} 
+      font-size:55%;
+  } 
   .top span{font-size: 5rem;}
 }
-@media (max-width:600px){
+
+@media (max-width:727) {
   html{
-      font-size:35%;
+    font-size:55%;
+} 
+.top span{font-size: 4.5rem;}
+
+}
+@media (max-width:670px){
+  html{
+    font-size:50%;
   }
+.top span{font-size: 4rem;}
+
   
 }
-@media (max-width:538px){
+@media (max-width:548px){
   html{
       font-size:35%;
   }
@@ -187,9 +201,12 @@ html{
 @media (max-width:335px){
   html{
       font-size:30%;
+  }
+  .top span{
+    font-size: 6rem;
   } 
 }
-@media (max-width:298px){
+/* @media (max-width:298px){
   html{
       font-size:25%;
   } 
@@ -198,8 +215,8 @@ html{
 @media (max-width:245px){
   html{
       font-size:20%;
-  } 
-}
+  }  */
+/* }
 @media (max-width:198px){
   html{
       font-size:15%;
@@ -214,4 +231,4 @@ html{
   html{
       font-size:5%;
   } 
-}
+} */

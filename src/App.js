@@ -39,7 +39,7 @@ function App() {
           <div className="rt">
             <span className="tt">price : 225rs per kg</span>
             <span className="tt">size : 22x28</span>
-            <span className="tt">pie : 25 pieces in one kg</span>
+            <span className="tt">piece : 25 pieces in one kg</span>
           </div>
         </div>
 
